@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="img">
+    <file>icons/about_dark.png</file>
+    <file>icons/about_light.png</file>
+    <file>icons/app_icon.png</file>
+    <file>icons/close.png</file>
+    <file>icons/close_dark.png</file>
+    <file>icons/close_light.png</file>
+    <file>icons/connect01.png</file>
+    <file>icons/connect02.png</file>
+    <file>icons/dark_open.png</file>
+    <file>icons/disconnect01.png</file>
+    <file>icons/disconnect02.png</file>
+    <file>icons/file_dark.png</file>
+    <file>icons/file_ligth.png</file>
+    <file>icons/min.png</file>
+    <file>icons/min_dark.png</file>
+    <file>icons/min_light.png</file>
+    <file>icons/not_network.png</file>
+    <file>icons/set_dark.png</file>
+    <file>icons/set_light.png</file>
+    <file>icons/with_network.png</file>
+  </qresource>
+</RCC>
