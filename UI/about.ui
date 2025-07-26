@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>50</y>
+     <width>271</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+	background-color: rgb(218, 218, 218);
+border-radius:15px;
+}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QToolButton" name="min_btn">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>5</y>
+      <width>36</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+	border:none
+}
+QToolButton:pressed{
+	padding-top:5px;
+	padding-left:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../Source/icon.qrc">
+      <normaloff>:/img/icons/min.png</normaloff>:/img/icons/min.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="close_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>5</y>
+      <width>36</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+	border:none
+}
+QToolButton:pressed{
+	padding-top:5px;
+	padding-left:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../Source/icon.qrc">
+      <normaloff>:/img/icons/close.png</normaloff>:/img/icons/close.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="about_lab">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>5</y>
+      <width>36</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	image: url(:/img/icons/about_dark.png);
+	border:none;
+	background-color: rgba(255, 255, 255, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="github_lab_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>201</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	border:none;
+	font: 57 15pt &quot;Alibaba PuHuiTi 3.0&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>MQTT 服务器管理工具
+版本: 0.1.0
+作者: LeurDeLis</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="github_btn">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>180</y>
+      <width>36</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+	border:none
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../Source/icon.qrc">
+      <normaloff>:/img/icons/github.png</normaloff>:/img/icons/github.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="csdn_btn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>180</y>
+      <width>36</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+	border:none
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../Source/icon.qrc">
+      <normaloff>:/img/icons/csdn.png</normaloff>:/img/icons/csdn.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Source/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>close_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>close_dialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>416</x>
+     <y>71</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>562</x>
+     <y>109</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>min_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>min_dialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>382</x>
+     <y>73</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>26</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>csdn_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>open_csdn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>239</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>507</x>
+     <y>396</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>github_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>open_github()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>194</x>
+     <y>256</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>94</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>open_github()</slot>
+  <slot>open_csdn()</slot>
+  <slot>close_dialog()</slot>
+  <slot>min_dialog()</slot>
+ </slots>
+</ui>

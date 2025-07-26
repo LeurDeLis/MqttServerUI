@@ -1,0 +1,4 @@
+{
+    "default": "MQTT/mosquitto_local.conf",
+    "custom": null
+}

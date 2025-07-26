@@ -4,7 +4,94 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06e05755-d445-4c5d-8a3c-43bb05584f6a" name="更改" comment="Initiate Project" />
+    <list default="true" id="06e05755-d445-4c5d-8a3c-43bb05584f6a" name="更改" comment="Initiate Project">
+      <change afterPath="$PROJECT_DIR$/MQTT/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MQTT/app_conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MQTT/mosquitto_custom.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MQTT/mqtt_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/about.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/about.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/settings_dialog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/settings_dialog.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image-20250726113054226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image-20250726113802266.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image-20250726114828942.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image-20250726114856211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image-20250726114916348.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image-20250726120049718.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image-20250726120112694.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image-20250726231819637.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/image-20250726231900148.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/ChangeLog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/NOTICE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/README-letsencrypt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/README-windows.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/Uninstall.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/aclfile.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/cjson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/devel/mosquitto.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/devel/mosquitto.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/devel/mosquitto_broker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/devel/mosquitto_broker.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/devel/mosquitto_plugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/devel/mosquittopp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/devel/mosquittopp.lib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/devel/mqtt_protocol.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/edl-v10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/epl-v20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/libcrypto-3-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/libssl-3-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/mosquitto.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/mosquitto.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/mosquitto.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/mosquitto.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/mosquitto_ctrl.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/mosquitto_dynamic_security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/mosquitto_passwd.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/mosquitto_pub.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/mosquitto_rr.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/mosquitto_sub.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/mosquittopp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/pthreadVC3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/pwfile.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/uv.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/websockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosquitto/zlib1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MqttServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MqttServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MqttServer.ui" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MqttServer.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icon.qrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon_rc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icon_rc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/about_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/about_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/about_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/about_light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/app_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/app_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/close_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/close_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/close_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/close_light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/connect01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/connect01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/connect02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/connect02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/dark_open.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/dark_open.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/disconnect01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/disconnect01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/disconnect02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/disconnect02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/file_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/file_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/file_ligth.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/file_ligth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/min.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/min.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/min_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/min_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/min_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/min_light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/not_network.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/not_network.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/set_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/set_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/set_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/set_light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/with_network.png" beforeDir="false" afterPath="$PROJECT_DIR$/Source/icons/with_network.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mosquitto_local.conf" beforeDir="false" afterPath="$PROJECT_DIR$/MQTT/mosquitto_local.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mqtt_server.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +107,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LeurDeLis"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LeurDeLis&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:LeurDeLis/MqttServerUI.git",
-    "accountId": "ab3ce5be-2eb8-48e2-a61d-ab1b0e2d2a9d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:LeurDeLis/MqttServerUI.git&quot;,
+    &quot;accountId&quot;: &quot;ab3ce5be-2eb8-48e2-a61d-ab1b0e2d2a9d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -43,17 +130,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.MqttServer.executor": "Run",
     "Python.aaa.executor": "Run",
+    "Python.about.executor": "Run",
     "Python.main.executor": "Run",
     "Python.mqtt_client.executor": "Run",
     "Python.mqtt_server (1).executor": "Run",
+    "Python.other_dialog (1).executor": "Run",
+    "Python.other_dialog.executor": "Run",
+    "Python.other_function (1).executor": "Run",
+    "Python.settings_dialog (1).executor": "Run",
+    "Python.settings_dialog.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/APP/anaconda3/envs/mqtt/Scripts/pyrcc5.exe",
+    "last_opened_file_path": "D:/python/MqttServerUI/UI",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\MqttServerUI\UI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\MqttServerUI" />
+      <recent name="D:\python\MqttServerUI\MQTT" />
+      <recent name="D:\python\MqttServerUI\UI" />
+      <recent name="D:\python\MqttServerUI\Source" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="aaa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MqttServerUI" />
@@ -64,11 +169,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/icons" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MQTT" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/icons/aaa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MQTT/aaa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="about" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MqttServerUI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/about.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mqtt_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="other_function (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MqttServerUI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,7 +239,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mqtt_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other_function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +248,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mqtt_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="other_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MqttServerUI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,11 +257,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mqtt_server.py" />
+      <option name="SCRIPT_NAME" value="D:\python\MqttServerUI\other_function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +270,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mqtt_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="settings_dialog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MqttServerUI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +279,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\python\MqttServerUI\mqtt_server.py" />
+      <option name="SCRIPT_NAME" value="D:\python\MqttServerUI\UI\settings_dialog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,10 +295,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.about" />
+        <item itemvalue="Python.other_function (1)" />
         <item itemvalue="Python.aaa" />
-        <item itemvalue="Python.mqtt_server (1)" />
-        <item itemvalue="Python.mqtt_client" />
-        <item itemvalue="Python.mqtt_server" />
+        <item itemvalue="Python.other_function" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753376227904</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initiate Project">
+      <option name="closed" value="true" />
+      <created>1753376674778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753376674778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">

@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>502</width>
+    <height>530</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QFrame" name="state_bar">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>320</width>
+      <height>455</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color:#c9d6df;
+     border-radius:15px;
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QToolButton" name="close_btn">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>5</y>
+       <width>36</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{
+	border:none
+}
+QToolButton:pressed{
+	padding-top:5px;
+	padding-left:5px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../Source/icon.qrc">
+       <normaloff>:/img/icons/close.png</normaloff>:/img/icons/close.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="min_btn">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>5</y>
+       <width>36</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QToolButton{
+	border:none
+}
+QToolButton:pressed{
+	padding-top:5px;
+	padding-left:5px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../Source/icon.qrc">
+       <normaloff>:/img/icons/min.png</normaloff>:/img/icons/min.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>45</y>
+       <width>301</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	background-color:#d6e6f2;
+	border-radius:10px;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="ip_text">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>55</y>
+        <width>113</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>系统字体</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	
+	background-color: rgba(255, 255, 255, 0);
+	border:none;
+	border-bottom:1px solid back;
+font: 12pt &quot;系统字体&quot;;
+}</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>请输入IP地址</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="connect_lab">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>60</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+	border:none;
+	background-color: rgba(255, 255, 255, 0);
+	image: url(:/img/icons/disconnect01.png);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="open_server_btn">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>55</y>
+        <width>91</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>系统字体</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-radius:5px;
+	background-color:#e3f3f7;
+font: 11pt &quot;系统字体&quot;;
+}
+QPushButton:hover{
+	border-radius:5px;
+	background-color:#80a3a2;
+font: 11pt &quot;系统字体&quot;;
+}
+QPushButton:pressed{
+	padding-top:3px;
+	padding-left:3px;
+}</string>
+      </property>
+      <property name="text">
+       <string>启动服务</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../Source/icon.qrc">
+        <normaloff>:/img/icons/connect02.png</normaloff>:/img/icons/connect02.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="logs_text">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>281</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTextEdit{
+	background-color: rgb(255, 255, 255);
+border:none;
+	font: 57 12pt &quot;Alibaba PuHuiTi 3.0&quot;;
+}</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="port_text">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>95</y>
+        <width>113</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>系统字体</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	background-color: rgba(255, 255, 255, 0);
+	border:none;
+	border-bottom:1px solid back;
+	font: 12pt &quot;系统字体&quot;;
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>请输入端口号</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="close_server_btn">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>95</y>
+        <width>91</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>系统字体</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border-radius:5px;
+	background-color:#e3f3f7;
+font: 11pt &quot;系统字体&quot;;
+}
+QPushButton:hover{
+	border-radius:5px;
+	background-color:#80a3a2;
+font: 11pt &quot;系统字体&quot;;
+}
+QPushButton:pressed{
+	padding-top:3px;
+	padding-left:3px;
+}</string>
+      </property>
+      <property name="text">
+       <string>关闭服务</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../Source/icon.qrc">
+        <normaloff>:/img/icons/disconnect02.png</normaloff>:/img/icons/disconnect02.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>24</width>
+        <height>24</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="wifi_lab">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>5</y>
+        <width>36</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+	border:none;
+	background-color: rgba(255, 255, 255, 0);
+	image: url(:/img/icons/not_network.png);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="about_btn">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>5</y>
+        <width>36</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton{
+	border:none
+}
+QToolButton:pressed{
+	padding-top:5px;
+	padding-left:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../Source/icon.qrc">
+        <normaloff>:/img/icons/about_dark.png</normaloff>:/img/icons/about_dark.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>60</width>
+        <height>60</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="set_btn">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>5</y>
+        <width>36</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton{
+	border:none
+}
+QToolButton:pressed{
+	padding-top:5px;
+	padding-left:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../Source/icon.qrc">
+        <normaloff>:/img/icons/set_light.png</normaloff>:/img/icons/set_light.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>60</width>
+        <height>60</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="wifi_lab_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>5</y>
+       <width>36</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	border:none;
+	background-color: rgba(255, 255, 255, 0);
+	image: url(:/img/icons/app_icon.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="wifi_lab_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>5</y>
+       <width>141</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>12</pointsize>
+       <weight>10</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	border:none;
+	background-color: rgba(255, 255, 255, 0);
+	font: 87 12pt &quot;Arial Black&quot;;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>MQTT Server</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Source/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>close_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close_app()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>395</x>
+     <y>60</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>501</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>min_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>min_app()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>355</x>
+     <y>60</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>501</x>
+     <y>24</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>open_server_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>connect_btn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>371</x>
+     <y>134</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>501</x>
+     <y>145</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>close_server_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>disconnect_btn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>380</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>501</x>
+     <y>220</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>set_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setting()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>133</x>
+     <y>82</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>39</x>
+     <y>126</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>about_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>about_app()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>175</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>279</x>
+     <y>7</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>setting()</slot>
+  <slot>configfile()</slot>
+  <slot>connect_btn()</slot>
+  <slot>disconnect_btn()</slot>
+  <slot>min_app()</slot>
+  <slot>close_app()</slot>
+  <slot>about_app()</slot>
+ </slots>
+</ui>

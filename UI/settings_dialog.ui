@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>431</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>设置</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>291</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{
+	background-color:#c9d6df;
+border-radius:10px;
+}
+/*玻璃效果
+QFrame 
+{
+    background-color: rgba(255, 255, 255, 180);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 100);
+}*/
+QGroupBox{
+	background-color: #f0f5f9;
+	border:none;
+font: 13pt &quot;系统字体&quot;;
+border-radius:10px;
+}
+QLabel{
+		border:none;
+	background-color: rgba(255, 255, 255, 0);
+	font: 87 12pt &quot;Arial Black&quot;;
+}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>121</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string>Theme</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="leftMargin">
+      <number>12</number>
+     </property>
+     <property name="topMargin">
+      <number>24</number>
+     </property>
+     <property name="rightMargin">
+      <number>12</number>
+     </property>
+     <property name="bottomMargin">
+      <number>3</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="set_theme1_btn">
+       <property name="minimumSize">
+        <size>
+         <width>25</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+
+border-radius:10px;
+	background-color: rgb(255, 255, 255);
+	font: 13pt &quot;系统字体&quot;;
+}
+QPushButton:pressed{
+	padding-top:3px;
+	padding-left:3px;
+}</string>
+       </property>
+       <property name="text">
+        <string>白色主题</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="set_theme2_btn">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border-radius:10px;
+	background-color: rgb(0, 0, 0);
+	font: 13pt &quot;系统字体&quot;;
+color: rgb(255, 255, 255);
+}
+
+QPushButton:pressed{
+	padding-top:3px;
+	padding-left:3px;
+}</string>
+       </property>
+       <property name="text">
+        <string>黑色主题</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="set_theme3_btn">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border-radius:10px;
+	background-color: #c9d6df;
+	font: 13pt &quot;系统字体&quot;;
+}
+
+QPushButton:pressed{
+	padding-top:3px;
+	padding-left:3px;
+}</string>
+       </property>
+       <property name="text">
+        <string>默认主题</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QToolButton" name="min_btn">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>5</y>
+      <width>36</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+	border:none
+}
+QToolButton:pressed{
+	padding-top:5px;
+	padding-left:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../Source/icon.qrc">
+      <normaloff>:/img/icons/min.png</normaloff>:/img/icons/min.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="close_btn">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>5</y>
+      <width>36</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+	border:none
+}
+QToolButton:pressed{
+	padding-top:5px;
+	padding-left:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../Source/icon.qrc">
+      <normaloff>:/img/icons/close.png</normaloff>:/img/icons/close.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wifi_lab_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>5</y>
+      <width>36</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	border:none;
+	background-color: rgba(255, 255, 255, 0);
+	image: url(:/img/icons/app_icon.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="path_lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>80</y>
+      <width>110</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="conf_btn">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>80</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+	border:none
+}
+QToolButton:pressed{
+	padding-top:5px;
+	padding-left:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../Source/icon.qrc">
+      <normaloff>:/img/icons/file_ligth.png</normaloff>:/img/icons/file_ligth.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_conf_btn">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>130</y>
+      <width>141</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>25</width>
+      <height>36</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:10px;
+	background-color: rgb(255, 255, 255);
+font: 13pt &quot;系统字体&quot;;
+}
+
+QPushButton:hover{
+	border-radius:10px;
+	background-color:#e3f3f7;
+}
+QPushButton:pressed{
+	padding-top:3px;
+	padding-left:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>保存配置</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="default_conf_btn">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>180</y>
+      <width>141</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>25</width>
+      <height>36</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:10px;
+	background-color: rgb(255, 255, 255);
+	font: 13pt &quot;系统字体&quot;;
+}
+
+QPushButton:hover{
+	border-radius:10px;
+	background-color:#e3f3f7;
+}
+QPushButton:pressed{
+	padding-top:3px;
+	padding-left:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>恢复默认</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>50</y>
+      <width>141</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;系统字体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ConfigFilePath:</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Source/icon.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>close_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>close_dialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>338</x>
+     <y>71</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>323</x>
+     <y>19</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>min_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>min_dialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>275</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>346</x>
+     <y>109</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>set_theme1_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>set_theme_one()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>138</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>307</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>set_theme2_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>set_theme_two()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>130</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>356</x>
+     <y>227</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>set_theme3_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>set_theme_three()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>133</x>
+     <y>243</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>315</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>conf_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>file_path()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>330</x>
+     <y>143</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>411</x>
+     <y>140</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>save_conf_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>save_conf()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>275</x>
+     <y>187</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>421</x>
+     <y>254</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>default_conf_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>default_conf()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>385</x>
+     <y>327</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>close_dialog()</slot>
+  <slot>min_dialog()</slot>
+  <slot>set_theme_one()</slot>
+  <slot>set_theme_two()</slot>
+  <slot>set_theme_three()</slot>
+  <slot>file_path()</slot>
+  <slot>save_conf()</slot>
+  <slot>default_conf()</slot>
+ </slots>
+</ui>
